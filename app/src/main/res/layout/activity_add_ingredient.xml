@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddIngredientActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ingredient_name"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_margin="5dp"
+        android:layout_alignParentTop="true"
+        android:id="@+id/ingredientNameText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_margin="5dp"
+        android:layout_alignBottom="@id/ingredientNameText"
+        android:layout_toEndOf="@id/ingredientNameText"
+        android:layout_toRightOf="@id/ingredientNameText"
+        android:inputType="text"
+        android:id="@+id/ingredientNameEditText"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ingredient_url"
+        android:id="@+id/ingredientURLText"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_margin="5dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/ingredientNameText"
+        android:layout_alignParentLeft="true" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@id/ingredientURLText"
+        android:layout_margin="5dp"
+        android:layout_toEndOf="@id/ingredientURLText"
+        android:layout_toRightOf="@id/ingredientURLText"
+        android:layout_below="@id/ingredientNameText"
+        android:inputType="textUri"
+        android:id="@+id/ingredientURLEditText"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/ingredientBackButton"
+        android:text="@string/go_back"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/ingredientSubmitButton"
+        android:text="@string/submit_to_database"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@id/ingredientBackButton"
+        android:layout_toRightOf="@id/ingredientBackButton" />
+
+</RelativeLayout>

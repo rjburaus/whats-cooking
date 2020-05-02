@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">WhatsCookingAddData</string>
+    <string name="WelcomeString">Would you like to enter an ingredient or recipe?</string>
+    <string name="enter_ingredient">Enter Ingredient</string>
+    <string name="enter_recipe">Enter Recipe</string>
+    <string name="recipe_name">Recipe Name: </string>
+    <string name="recipe_instructions">Recipe Instructions: </string>
+    <string name="recipe_url">Recipe URL: </string>
+    <string name="recipe_meal_type">Recipe Meal Type:</string>
+    <string name="current_ingredients_in_list">Current Ingredients In List:</string>
+    <string name="go_back">Go Back</string>
+    <string name="submit_to_database">Submit to database</string>
+    <string name="recipe_note">Note: Remember to add ingredients to database before adding a recipe using them. Otherwise you will encounter an error using this app</string>
+    <string name="add_new_ingredient">Add New Ingredient:</string>
+    <string name="add_ingredient">Add Ingredient</string>
+    <string name="ingredient_name">Ingredient Name:</string>
+    <string name="ingredient_url">Ingredient URL:</string>
+</resources>

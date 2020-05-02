@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1061587560004",
+    "firebase_url": "https://whats-cooking-b75bf.firebaseio.com",
+    "project_id": "whats-cooking-b75bf",
+    "storage_bucket": "whats-cooking-b75bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061587560004:android:e71c2cbcdbf07245df3e11",
+        "android_client_info": {
+          "package_name": "com.example.whatscookingadddata"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061587560004-p99fokb2209kvltnqlgv7t2hi195ahmb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBINmplHWEJaWsgfrKrc40JKu6efD3tKKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1061587560004-p99fokb2209kvltnqlgv7t2hi195ahmb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
